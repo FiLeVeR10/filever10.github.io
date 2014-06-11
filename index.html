@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+<style>
+/*reset*/
+html, body { margin:0; padding:0 }
 
-  </style>
+/*common*/
+#wrap { display:block }
+#wrap { margin:0 auto }
+
+/*main*/
+#wrap { max-width:1200px }
+
+/*background*/
+body { background-color:#F69129 }
+header { background-color:#5C8C02 }
+#mid { background-color:#ABB835 }
+footer { background-color:#E1E11E }
+
+/*test*/
+header, footer { min-height:20% }
+#mid { min-height:60% }
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 760px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+</style>
 </head>
 <body>
 <div id="wrap">
-  <header>header</header>
-  <div id="mid">middle</div>
-  <footer>footer</footer>
+  <header><h1>Hello, I am Phil...</h1></header>
+  <div id="mid">Sometimes I do things...</div>
+  <footer>Just Look at it...</footer>
 </div>
 </body>
 </html>
