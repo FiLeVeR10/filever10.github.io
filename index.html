@@ -38,7 +38,14 @@ h2 { font-size:4em }
 p { font-size:1.5em }
 h1 { font-weight:100 }
 #social, #social li { list-style:none }
+
+/*effects*/
 h1 { text-shadow: 3px 3px #000000 }
+@-webkit-keyframes spin {
+  0%  {-webkit-transform: rotate(0deg);}
+  100% {-webkit-transform: rotate(360deg);}
+}
+#social a img { -webkit-animation: spin 4s infinite linear; }
 
 </style>
 <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
